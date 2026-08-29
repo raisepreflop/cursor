@@ -1,0 +1,13 @@
+{
+  "name": "grok-bot-humanink-overlay",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fuente de las recetas (Markdown) que corren en Grok Bot (xAI) — overlay HumanInk.",
+  "scripts": {
+    "lint": "markdownlint-cli2 \"**/*.md\"",
+    "lint:fix": "markdownlint-cli2 --fix \"**/*.md\""
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.23.2"
+  }
+}
