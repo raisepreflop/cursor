@@ -61,7 +61,7 @@ skills/
   coach-literario/SKILL.md
   editor-de-desarrollo/SKILL.md
   lector-profesional/SKILL.md
-  informe-de-lectura/SKILL.md     # deprecado, apunta a lector-profesional
+  informe-de-lectura/SKILL.md     # deprecado, enruta a editor-de-desarrollo (Roger) o lector-profesional (Lector)
   registro-humanink/SKILL.md
   humanizador/SKILL.md
   lector-beta/SKILL.md
@@ -101,7 +101,7 @@ Cada `SKILL.md` tiene front-matter YAML con `name` y `description` en formato `U
 | `coach-literario` | Premisa tomada del mensaje; nunca detiene la conversación pidiendo `premisa.md`. |
 | `editor-de-desarrollo` | "Roger" = el plan de capítulos que mantiene el skill, no una persona. |
 | `lector-profesional` | Dossier estándar; la sección `07` es el veredicto central. |
-| `informe-de-lectura` | Deprecado: solo apunta a `lector-profesional` (dossier `07`), no lee nada por sí mismo. |
+| `informe-de-lectura` | Deprecado: enruta según lo pedido, nunca produce un tercer reporte propio — Roger (plan de reescritura por capítulo) va a `editor-de-desarrollo`, Lector (dossier integrado, veredicto `07`) va a `lector-profesional`. |
 | `registro-humanink` | Checkpoint en `project-checkpoint.md` vía `skills/log/scripts/awos-log.py`. |
 | `humanizador`, `lector-beta`, `editor-de-estilo`, `maquetador`, `community-manager`, `agente-literario`, `humanink-brain`, `auditor-de-autor-a` | Wrappers Grok-only: entregan por `~/Downloads` (`CopyFromBox`) y cierran con el pie Art. 50 cuando producen Word. |
 
